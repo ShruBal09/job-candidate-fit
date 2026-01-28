@@ -65,10 +65,10 @@ The following diagram shows the high level end-to-end architecture of this syste
 ### High-level workflow
 
 1. Document Ingestion  
-  - Resume and job description loaded from URL or local files.
+    - Resume and job description loaded from URL or local files.
 
 2. PII Redaction  
-  - Sensitive personal information (Name, email, urls, location, phone numbers) removed from resumes before LLM usage.
+    - Sensitive personal information (Name, email, urls, location, phone numbers) removed from resumes before LLM usage.
 
 3. Structured Parsing  
    - Resume parser (LLM) extracts skills, experience, education
@@ -85,10 +85,10 @@ The following diagram shows the high level end-to-end architecture of this syste
    - Clearly explains strengths, risks, and recommendation
 
 6. Human-in-the-Loop Review  
-  - Recruiters add comments and regenerate summaries without recomputing scores.
+    - Recruiters add comments and regenerate summaries without recomputing scores.
 
 7. Revised Summary  
-  - Updated summary while preserving original analysis for auditability.
+    - Updated summary while preserving original analysis for auditability.
 
 ---
 
