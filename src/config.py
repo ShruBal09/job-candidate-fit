@@ -14,7 +14,7 @@ from typing import Dict
 class ModelConfig:
     name: str
     temperature: float
-    seed: int | None = None
+    prompt_version: str = "v1"
 
 @dataclass(frozen=True)
 class NLIModelConfig:
